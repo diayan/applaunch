@@ -6,4 +6,13 @@ In this chapter we will go over how to use a separate app delegate when running 
 
 ## Topics
 
+## The Test Launch Sequence in Xcode: 
+1. Launch the simulator on macOS
+2. Dynamically inject the test bundle into the app
+3. Launch the app in the simulator 
+4. Run the tests 
+5. Terminate the app
+
+##Bypass the Normal App Delegate
+
 

@@ -14,6 +14,7 @@
 		B23F564627D977EC00032948 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23F564527D977EC00032948 /* Assets.xcassets */; };
 		B23F564927D977EC00032948 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B23F564727D977EC00032948 /* LaunchScreen.storyboard */; };
 		B23F565727D9780D00032948 /* AppLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23F565627D9780D00032948 /* AppLaunchTests.swift */; };
+		B23F565F27D9812D00032948 /* TestingAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23F565E27D9812D00032948 /* TestingAppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		B23F565427D9780D00032948 /* AppLaunchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppLaunchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B23F565627D9780D00032948 /* AppLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLaunchTests.swift; sourceTree = "<group>"; };
 		B23F565D27D97C4600032948 /* Notes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Notes.md; sourceTree = "<group>"; };
+		B23F565E27D9812D00032948 /* TestingAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingAppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		B23F563027D977EA00032948 = {
 			isa = PBXGroup;
 			children = (
+				B23F565E27D9812D00032948 /* TestingAppDelegate.swift */,
 				B23F563B27D977EA00032948 /* AppLaunch */,
 				B23F565527D9780D00032948 /* AppLaunchTests */,
 				B23F563A27D977EA00032948 /* Products */,
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B23F564127D977EA00032948 /* ViewController.swift in Sources */,
+				B23F565F27D9812D00032948 /* TestingAppDelegate.swift in Sources */,
 				B23F563D27D977EA00032948 /* AppDelegate.swift in Sources */,
 				B23F563F27D977EA00032948 /* SceneDelegate.swift in Sources */,
 			);
